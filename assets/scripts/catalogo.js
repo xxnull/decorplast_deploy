@@ -5,7 +5,7 @@ export default function catalogo(data){
             `<div class="col-md-3 col-sm-6">
                 
                 <span class="thumbnail">
-                    <h4>${element.articulo}</h4>
+                    <h4 class="product_title">${element.articulo}</h4>
                     <p>${element.descripcion}</p>
                     <div class="img-container">
                         <img src="./assets/products/producto_${element.id}.jpg" alt="...">
